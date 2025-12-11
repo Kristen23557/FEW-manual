@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-{
-  "name": "FEW-Project-Manual",
-  "description": "",
-  "created_at": "2025-12-06T08:34:13.532055",
-  "last_modified": "2025-12-10T09:25:36.920970",
-  "author": "用户",
-  "version": "1.0.0",
-  "settings": {
-    "theme": "light",
-    "animations": true,
-    "sidebar_collapsible": true,
-    "show_back_to_top": true,
-    "enable_comments": false,
-    "show_word_count": true,
-    "auto_save": true,
-    "font_family": "Inter, 'Microsoft YaHei', sans-serif",
-    "primary_color": "#667eea",
-    "secondary_color": "#764ba2"
-  }
-=======
 {
   "name": "FEW-Project-Manual",
   "description": "",
@@ -38,5 +17,4 @@
     "primary_color": "#667eea",
     "secondary_color": "#764ba2"
   }
->>>>>>> 0ef029336c66a89cad59fb6f0815827715942a03
 }
