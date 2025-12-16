@@ -121,6 +121,43 @@
           "align": "left",
           "font_size": "1rem",
           "line_height": "1.7"
+        },
+        {
+          "id": "f1078e0e",
+          "type": "heading",
+          "created_at": "2025-12-16T14:01:52.233153",
+          "version": "1.0",
+          "text": "下面的水月友希和代码块是我测试放上去的，勿删（",
+          "level": 2,
+          "color": "#92cbef",
+          "align": "left",
+          "animation": "none",
+          "font_family": "Inter, 'Microsoft YaHei', sans-serif",
+          "font_size": "2rem",
+          "bold": true,
+          "underline": false,
+          "strike": false
+        },
+        {
+          "id": "1c4361c1",
+          "type": "image",
+          "created_at": "2025-12-16T14:04:31.980131",
+          "version": "1.0",
+          "src": "moondrop-yuki.jpg",
+          "alt": "水月友希",
+          "caption": "",
+          "width": "100%",
+          "align": "center"
+        },
+        {
+          "id": "11871a93",
+          "type": "code",
+          "created_at": "2025-12-16T14:09:06.727565",
+          "version": "1.0",
+          "code": "#你叠懒得写真代码了\n给我打印：（“hello world”）",
+          "language": "python",
+          "theme": "default",
+          "show_line_numbers": true
         }
       ],
       "created_at": "2025-12-06T09:03:03.942268",
@@ -360,12 +397,29 @@
           "type": "paragraph",
           "created_at": "2025-12-06T09:40:47.532367",
           "version": "1.0",
-          "text": "提问，是你与世界对话的方式。\n一个优雅的提问，背后是清晰的思考、独立的尝试，以及对他人时间与专业的基本尊重。\n它不保证你一定能得到答案，但它能最大限度地让那些有能力、也愿意帮助你的人，走到你的面前。\n\n愿你在此，学会提问，也学会协作。\n这不仅对你有用，对我们所有人，都是如此。\n\n此处推荐阅读：南京理工大学生存手册——提问的智慧\nhttps://manual.njust.wiki/notes/freshGuide/smart-questions/",
+          "text": "提问，是你与世界对话的方式。\n一个优雅的提问，背后是清晰的思考、独立的尝试，以及对他人时间与专业的基本尊重。\n它不保证你一定能得到答案，但它能最大限度地让那些有能力、也愿意帮助你的人，走到你的面前。\n\n愿你在此，学会提问，也学会协作。\n这不仅对你有用，对我们所有人，都是如此。\n\n此处推荐阅读：南京理工大学生存手册——提问的智慧",
           "color": "#4a5568",
           "background": "#ffffff",
           "align": "left",
           "font_size": "1rem",
-          "line_height": "1.7"
+          "line_height": "1.7",
+          "font_family": "Inter, 'Microsoft YaHei', sans-serif",
+          "bold": false,
+          "underline": false,
+          "strike": false
+        },
+        {
+          "id": "cccf5810",
+          "type": "button",
+          "created_at": "2025-12-16T13:58:00.557209",
+          "version": "1.0",
+          "text": "点击跳转",
+          "url": "https://manual.njust.wiki/notes/freshGuide/smart-questions/",
+          "color": "#ffffff",
+          "background": "#667eea",
+          "hover_background": "#764ba2",
+          "size": "medium",
+          "rounded": true
         }
       ],
       "created_at": "2025-12-06T09:10:58.475490",
@@ -400,15 +454,20 @@
           "line_height": "1.7"
         },
         {
-          "id": "92ec12bd",
-          "type": "heading",
-          "created_at": "2025-12-06T10:04:13.133863",
+          "id": "11f01f3d",
+          "type": "paragraph",
+          "created_at": "2025-12-16T14:10:53.837227",
           "version": "1.0",
-          "text": "一、优雅的基础：对公共空间的认知",
-          "level": 1,
-          "color": "#bfcfef",
+          "text": "一、优雅的基础：对公共空间的认知\n在FEW Project的实验室里，“公共”是首要原则。这个空间属于每一个在此创造的人，因此，你的行为应以“维护共享环境”为出发点，而非仅仅满足个人便利。\n\n1. 物理空间的共享意识\n你的工作区域是临时的\n工作台在当天属于你，但隔夜后便是公共资源。离开时请清空台面，将个人物品归入储物柜，为下一位使用者留下整洁、可立即投入工作的空间。\n\n通道是实验室的动脉\n请勿将工具箱、未完成的作品或私人背包放置于过道。保持所有通道（尤其是紧急通道）畅通无阻，这不仅关乎便利，更是基本的安全素养。\n\n共享设备优先原则\n3D打印机、示波器、钻床等公用设备，使用前请确认预约状态；使用后请恢复初始设置、清理工作区，并在登记表上记录使用情况与异常状态。\n\n2. 资源消耗的责任感\n物料取用：最小必要原则\n取用螺丝、导线、电阻等公共物料时，请按实际所需数量拿取。若需大量或整卷取用，请提前在物料板登记并说明用途。剩余物料请及时归还至公共分区。\n\n能源与耗材：隐形却珍贵\n最后离开者负责关闭空调、照明及非必要电源。打印测试件时，优先使用回收材料或调整填充率以减少耗材浪费。你节省的每一厘米线材，都是对项目预算的尊重。\n\n3. 环境氛围的维护者\n视觉整洁：眼睛的呼吸空间\n实验完成后，请立即清理焊渣、剪下的线头、包装废料等。杂乱不仅是视觉污染，更会干扰他人专注力。公共展示区的作品摆放应有序，未经允许请勿移动他人作品。\n\n气味与卫生：无形的边界\n实验室内禁止用餐。如需饮水，请使用带盖容器并远离精密仪器。焊接或使用化学剂后请开窗通风，你的工作习惯不应成为他人的感官负担。\n\n4. 安全是最高级的优雅\n个人防护是基本礼仪\n在进行可能产生飞屑、烟雾或强光操作时，主动佩戴护目镜、口罩等防护装备。这不仅保护你自己，也避免了他人因你的受伤而中断工作。\n\n隐患即报，不存侥幸\n发现裸露电线、设备异响、地面油渍等安全隐患，你有责任立即在安全群组通报或张贴醒目警示。优雅的成员不会对潜在危险视而不见，哪怕它并非由你造成。\n\n公共空间认知的本质，是意识到：你在此地的每一个动作，都在为这个环境投票——是投给混乱与疏离，还是投给秩序与共同体。\n优雅始于你推开实验室门的那一刻：你踏进的不是一个“可以随意使用的地方”，而是一个“需要我们共同守护的创造之地”。",
+          "color": "#007acc",
+          "background": "#ffffff",
           "align": "left",
-          "animation": "none"
+          "font_size": "1rem",
+          "line_height": "1.7",
+          "font_family": "Inter, 'Microsoft YaHei', sans-serif",
+          "bold": false,
+          "underline": false,
+          "strike": false
         }
       ],
       "created_at": "2025-12-06T09:49:33.776383",
@@ -541,6 +600,14 @@
       ],
       "created_at": "2025-12-12T12:15:47.256666",
       "order": 7
+    },
+    {
+      "id": "page_2e7e4167",
+      "title": "新页面",
+      "type": "page",
+      "content": [],
+      "created_at": "2025-12-16T14:10:00.535779",
+      "order": 8
     }
   ],
   "config": {
