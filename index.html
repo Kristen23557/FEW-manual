@@ -1389,6 +1389,18 @@
             <div class="paragraph" style="color: #73b4dc; background: #464444; text-align: left; font-family: Inter, 'Microsoft YaHei', sans-serif; font-size: 1rem; font-weight: 400; text-decoration: none;">
                 既然你已经建立了一个可以开始工作的本地环境，那么接下来，我们需要为你在这片广阔的互联网上，锚定一个属于你自己的坐标。这不仅仅是注册一个账户那么简单，这是在数字世界中建立你的身份、你的作品集和你的协作网络的第一步。我们将使用 GitHub，它早已超越了“代码托管平台”的定义，成为了现代开发者事实上的名片、简历与协作工坊。<br><br>访问 github.com。如果英语界面让你感到迟疑，不必担心——在开始注册前，我们可以先为浏览器安装一个翻译扩展。在 Chrome Web Store 或 Edge Add-ons 中搜索 "GitHub 翻译" 或 "沉浸式翻译"，选择一个评分较高的扩展进行安装。这类扩展能智能地翻译界面中的英文文本，同时保留代码和技术术语的原文，让你在理解界面的同时不损失技术信息的准确性。记住，这只是暂时的桥梁，你最终的目标是能够直接阅读英文技术文档。<br><br>现在回到注册页面。你会看到一个“Sign up”的入口。整个过程是清晰且引导式的，但我们仍需关注几个关键环节，它们决定了你未来数年的使用体验是否顺畅、是否安全。<br><br>首先，选择一个用户名。这不仅是你的登录凭证，更将成为你公开身份的标识。它应当简洁、易读、尽量专业，最好能与你个人或未来希望建立的技术品牌相关联。请慎重思考，因为后续更改虽然可行，但代价是更新所有提及过你旧用户名的地方。接下来，按照提示填写邮箱、设置密码。密码的强度不再赘言，你应该已经知晓其重要性。<br><br>在这里，我要着重强调一个绝大多数新手会忽略，却在当前安全环境下至关重要的步骤：双重身份验证，或称2FA。GitHub 会强烈推荐，甚至在某些场景下要求你启用它。这不是一个可选项，而应被视为账户安全的必修标准配置。它的原理很简单：除了你知道的密码，还需要一个你拥有的、动态变化的验证码，二者缺一不可才能登录。这就像为你的数字家门加上了一把动态密码锁。<br><br>当 GitHub 引导你设置 2FA 时，它会提供几种方式。请选择“使用身份验证器应用程序”这一项。这是目前最主流且便捷的方式。系统会展示一个二维码和一段由字母数字组成的密钥。现在，在你的手机上安装一个身份验证器应用。我特别推荐 Authenticator Pro——这是一款开源、免费且功能完善的应用，支持加密备份、多种主题和可自定义的图标，比许多商业应用更加尊重用户隐私与自由。你可以在 F-Droid 或 Google Play 商店中找到它。<br><br>关键的一步来了：不要仅仅扫描二维码就结束。在 Authenticator Pro 中添加账户时，请选择“手动输入”选项。在那里，你需要为账户命名（如“GitHub”），然后输入 GitHub 提供给你的那串密钥明文。将这串密钥完整、准确地记录下来，并备份到你认为绝对安全的地方（例如使用加密的密码管理器保存，或手写在安全的实体笔记中）。为什么这如此重要？因为如果你更换或丢失了手机，导致验证器应用数据丢失，而这串密钥是你重新在任何新设备上绑定 GitHub 2FA 的唯一凭证。没有它，你将极难恢复账户的访问权限。备份好密钥后，在 Authenticator Pro 中完成添加。此后，每当你登录 GitHub 时，在输入密码后，都需要打开这个应用，输入它为你生成的、每隔30秒刷新一次的6位数字验证码。<br><br>完成注册和2FA设置后，花些时间简单浏览你的新主页。查看设置中的通知偏好，或许可以上传一个头像。但更重要的是，理解你刚刚获得的不仅仅是一个仓库的存储空间。你获得的是一个可以与全球开发者协作的平台，一个可以托管个人项目、技术博客的基地，一个可以参与开源、向无数优秀项目提交贡献的通行证。在这个过程中，你安装的翻译扩展会持续提供帮助，但请有意识地逐渐减少对它的依赖——直接阅读原文，是融入技术社区的必经之路。<br><br>现在，回到你的本地环境，打开终端。让我们将你本地的 Git 与这个新的远程身份关联起来。运行以下两条命令，将引号内的内容替换为你注册时使用的信息：<br><br>git config --global user.name "Your GitHub Username"<br>git config --global user.email "your-email@used-for-github.com"<br><br>这看似微小的配置，却是你每一次代码提交的“签名”。它告诉世界，这份贡献来自何人。从此，你的本地工作与你的公开身份，通过 Git 这一协议紧密相连。<br><br>至此，你已完成了从孤立的本地环境，到接入全球开发者网络的关键一跃。你的工具链闭环了：你可以在本地创作，用 Git 记录历史，最终将你的作品推送到 GitHub，与世界分享或协作。请像维护你的开发环境一样，维护好你的 GitHub 账户与安全设置。它承载的，将是你未来作为构建者的一切足迹与声誉。安全备份的 2FA 密钥和逐渐成长的英语阅读能力，是你在这条路上行走的两个重要支撑。
             </div>
+            </div><div class="element"><h1 class="heading heading-1" style="color: #7cacce; text-align: left; font-family: Inter, 'Microsoft YaHei', sans-serif; font-size: 2.8rem; font-weight: 700; text-decoration: none;">三、把你的心意变成代码以后该怎么办？</h1></div><div class="element">
+            <div class="paragraph" style="color: #80b5dc; background: #464444; text-align: left; font-family: Inter, 'Microsoft YaHei', sans-serif; font-size: 1rem; font-weight: 400; text-decoration: none;">
+                现在我们假设你已经把你的心意变成了代码，或者随便怎么样，然后你该怎么提交呢？<br>请看VCR
+            </div>
+            </div><div class="element">
+            <a href="https://www.bilibili.com/video/BV1pwC6BxEeb" target="_blank" class="button" style="background: #667eea; color: #ffffff;">
+                点击这里跳转
+            </a>
+            </div><div class="element">
+            <div class="paragraph" style="color: #71abd8; background: #464444; text-align: left; font-family: Inter, 'Microsoft YaHei', sans-serif; font-size: 1rem; font-weight: 400; text-decoration: none;">
+                看懂了吗？如果你看懂了那下文你可以忽略了，在本篇文末我会为你提供我们的项目主仓库，不过请你谨记，我们的项目存储在项目主仓库的分支里，不要提交PR或者任何内容到主仓库本身，提交内容只能提交至项目分支<br><br>你没看懂？那就接着看下去，这一部分会为你提供Git
+            </div>
             </div>
                 </div>
             
